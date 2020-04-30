@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost/order.php">
+        <p>
+            <h1>색상 (단일선택)</h1>
+            붉은색: <input type="radio" name="color" value="red" checked>
+            검은색: <input type="radio" name="color" value="black">
+            파란색: <input type="radio" name="color" value="blue">
+        </p>
+
+        <p>
+            <h1>사이즈 (다중선택)</h1>
+            95: <input type="checkbox" name="size" value="95">
+            100: <input type="checkbox" name="size" value="100">
+            105: <input type="checkbox" name="size" value="105">
+        </p>
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+<!-- input 속성: radio는 name이 같은 것 중에서 한가지만 선택할 수 있다. -->
+<!-- input 속성: checkbox는 name이 같은 것 중에서 중복으로 선택할 수 있다. -->
