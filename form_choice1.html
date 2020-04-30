@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>색상</h1>
+        <select name="color">
+            <option value="red">붉은색</option>
+            <option value="black">검은색</option>
+            <option value="blue">파란색</option>
+        </select>
+        <h1>색상2 (다중선택)</h1>
+        <select name="color2" multiple>
+            <option value="red">붉은색</option>
+            <option value="black">검은색</option>
+            <option value="blue">파란색</option>
+        </select>
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+<!-- option 태그는 사용자가 여러가지 선택지 중 하나를 선택할 수 있게 해주는 태그이다. -->
+<!-- option 태그는 select 태그로 감싸야 하고 name=""을 통해 정한다. -->
+<!-- submit으로 서버로 전송할 땐 option 속성인 value=""를 이용해 전달한다. -->
+<!-- select 속성: multiple은 다중선택을 할 수 있도록 해준다.(Ctrl 키를 눌러 선택 가능) -->
