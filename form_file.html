@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost/upload.php" method="post" enctype="multipart/form-data"> 
+        <input type="file" name="profile">
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+<!-- 실제론 작동하지 않지만 파일전송하는 법이다. -->
+<!-- form 태그에 method="post" 속성과 enctype="multipart/form-data" 속성 추가를 해야한다. -->
+<!-- file에도 이름(name="")이 필요하다. -->
+<!-- 파일 업로드는 서버의 도움이 필수적이다.  -->
