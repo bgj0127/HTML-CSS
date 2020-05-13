@@ -1,0 +1,25 @@
+.container {
+    background: beige;
+    padding-top: 100px;
+    height: 100vh;
+    display: flex;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.item1 { 
+    background: rgb(255, 145, 20);
+    align-self: center;
+}
+.item2 {
+    background: rgb(74, 255, 19);
+
+}
+.item3 {
+    background: rgb(255, 30, 0);
+
+}
