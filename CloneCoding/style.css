@@ -1,0 +1,218 @@
+body {
+  background-color: white;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  display: inline;
+}
+
+.navbar {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: center;
+  background-color: white;
+  padding: 8px 75px;
+}
+
+.navbar_logo {
+  font-size: 24px;
+}
+
+.navbar_menu {
+  display: flex;
+}
+
+.navbar_menu li {
+  padding: 3px 12px;
+}
+
+.navbar_menu li :hover {
+  text-decoration-line: underline;
+}
+
+.navbar_lang {
+  display: flex;
+}
+
+.navbar_lang li {
+  padding: 3px 5px;
+}
+
+.main_content {
+  width: 100%;
+  height: 1380px;
+  background-color: white;
+  margin-top: 4px;
+}
+
+.main_visual {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 650px;
+}
+
+.introduce {
+  position: absolute;
+  padding: 76px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button {
+  padding: 40px 0px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 0px 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.main_summary {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px 76px;
+}
+
+.plus {
+  font-size: 13px;
+  color: rgb(68, 68, 68);
+}
+
+.release {
+  width: 33%;
+}
+
+.stock {
+  width: 33%;
+}
+
+.stock h1 {
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.num {
+  display: inline;
+  font-size: 25px;
+  color: blue;
+}
+
+.stock div {
+  padding: 10px 0px;
+}
+
+.stock .date {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.policy {
+  width: 33%;
+}
+
+.main_service {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 480px;
+  padding: 0px 76px;
+  justify-content: space-around;
+}
+
+.service {
+  position: relative;
+  width: 33%;
+}
+
+.imgtxt {
+  position: absolute;
+  padding-left: 30px;
+  color: whitesmoke;
+}
+
+.tech .imgtxt {
+  color: black;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px;
+}
+
+.tech {
+  position: relative;
+  width: 33%;
+}
+
+.impact {
+  position: relative;
+  width: 33%;
+}
+
+.impact .imgtxt {
+  color: black;
+}
+
+.impact h1 {
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 28px;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px 80px;
+}
+
+.info {
+  display: flex;
+}
+
+.info li {
+  padding: 4px 12px;
+}
+
+.relation {
+  display: flex;
+}
+
+.relation li {
+  padding: 4px 12px;
+}
