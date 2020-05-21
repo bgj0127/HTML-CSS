@@ -1,3 +1,5 @@
+*JavaScript*
+
 <script  src="file.js"></script> 의 형태로 html 코드에 넣는다.
 
 가장 좋은 방법은 <head>안에 <script  defer  src="file.js"></script> 이다.
