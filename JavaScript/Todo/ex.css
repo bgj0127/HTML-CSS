@@ -1,0 +1,64 @@
+body {
+  background-color: #ecf0f1;
+  margin: 0%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 100px;
+  color: #34495e;
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  font-size: 50px;
+  margin: 20px 0px 30px;
+}
+
+hr {
+  display: flex;
+  width: 850px;
+  border: rgb(34, 34, 34) 2px solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.todo {
+  width: 200px;
+  border: rgb(133, 133, 133) 1px solid;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+.form,
+.greetings {
+  display: none;
+  justify-content: center;
+}
+
+.showing {
+  display: flex;
+  justify-content: center;
+}
+
+input,
+input:focus {
+  background: none;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.js-toDoForm {
+  display: flex;
+  justify-content: center;
+}
