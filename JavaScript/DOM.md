@@ -14,7 +14,7 @@ DOM은 tree 형식의 자료구조를 가지고 있다. 태그 뿐만 아니라 
 
 
 
-https://github.com/bgj0127/HTML-CSS/blob/master/JavaScript/DOM.png
+[!(https://github.com/bgj0127/HTML-CSS/blob/master/JavaScript/DOM.png)]
 
 
 ---
