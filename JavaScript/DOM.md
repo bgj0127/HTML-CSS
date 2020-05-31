@@ -13,9 +13,7 @@
 DOM은 tree 형식의 자료구조를 가지고 있다. 태그 뿐만 아니라 태그 속 텍스트나 속성 등 모두 node에 속한다. 이 중 HTML 태그를 __요소노드(Element Node)__ 라고 하고, 요소 노드 안에 있는 글자를 __Text 노드(Text Node)__라고 부르기도 한다.
 
 
-
-![DOM](C:\Users\bgj01\OneDrive\바탕 화면\DOM.png)
-
+![tree](https://github.com/bgj0127/HTML-CSS/blob/master/JavaScript/DOM.png)
 
 
 ---
