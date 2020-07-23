@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="a" class="circle"></div>
+    <div id="b" class="circle"></div>
+    <div id="c" class="circle"></div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere est
+      corporis deserunt ipsum consequatur. Dolorum, suscipit repellat saepe
+      nemo, architecto quaerat provident consequatur nisi dolore incidunt, amet
+      voluptates quas natus? Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Facere est corporis deserunt ipsum consequatur. Dolorum, suscipit
+      repellat saepe nemo, architecto quaerat provident consequatur nisi dolore
+      incidunt, amet voluptates quas natus? Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Facere est corporis deserunt ipsum
+      consequatur. Dolorum, suscipit repellat saepe nemo, architecto quaerat
+      provident consequatur nisi dolore incidunt, amet voluptates quas natus?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere est
+      corporis deserunt ipsum consequatur. Dolorum, suscipit repellat saepe
+      nemo, architecto quaerat provident consequatur nisi dolore incidunt, amet
+      voluptates quas natus? Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Facere est corporis deserunt ipsum consequatur. Dolorum, suscipit
+      repellat saepe nemo, architecto quaerat provident consequatur nisi dolore
+      incidunt, amet voluptates quas natus?
+    </p>
+    <script>
+      const mobileWidth = 640;
+      const onResize = () => {
+        const zoom = Math.min(window.innerWidth / mobileWidth, 1);
+        document.documentElement.style.zoom = `${zoom}`;
+      };
+      onResize();
+      window.addEventListener("resize", onResize);
+    </script>
+  </body>
+</html>
