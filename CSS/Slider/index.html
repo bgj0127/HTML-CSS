@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <img src="img1_large.jpg" id="slider" />
+      <ul class="navigation">
+        <li onclick="imgSlider('img1_large.jpg')">
+          <img src="img1_thumb.jpg" />
+        </li>
+        <li onclick="imgSlider('img2_large.jpg')">
+          <img src="img2_thumb.jpg" />
+        </li>
+        <li onclick="imgSlider('img3_large.jpg')">
+          <img src="img3_thumb.jpg" />
+        </li>
+        <li onclick="imgSlider('img4_large.jpg')">
+          <img src="img4_thumb.jpg" />
+        </li>
+      </ul>
+      <h2>
+        Simple Image Slider
+      </h2>
+    </section>
+    <script>
+      function imgSlider(a) {
+        document.getElementById("slider").src = a;
+      }
+    </script>
+  </body>
+</html>
