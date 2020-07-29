@@ -8,7 +8,10 @@
   </head>
   <body>
     <div class="scene">
-      <div class="moon"></div>
+      <div class="bowl">
+        <div class="moon"></div>
+        <div class="water"></div>
+      </div>
     </div>
 
     <script>
@@ -30,6 +33,8 @@
 
           star.style.animationDuration = 5 + duration + "s";
           star.style.animationDelay = duration + "s";
+
+          star.style.borderRadius = 50 + "%";
 
           scene.appendChild(star);
           i++;
