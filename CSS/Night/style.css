@@ -27,7 +27,7 @@
     0 0 0 30px rgba(255, 255, 255, 0.06);
 }
 
-.scene i {
+.scene star {
   position: absolute;
   background: #fff;
   border-radius: 50%;
@@ -52,13 +52,13 @@
   width: 40px;
   top: 100px;
   z-index: 10;
-  animation: fishAni 10s linear infinite;
+  animation: fishAni 8s linear infinite;
 }
 
 .fish2 {
   top: 150px;
   transform: scaleX(-1);
-  animation: fish2Ani 13s ease-in infinite;
+  animation: fish2Ani 10s ease-in infinite;
 }
 
 .fish_mask {
