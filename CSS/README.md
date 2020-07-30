@@ -71,6 +71,14 @@
 
 * **clip-path** - 기존의 clip 속성은 직사각형만 가능했다면 이 속성은 여러 형태의 도형을 적용할 수 있다. 
 
-### masking
+### mask
 
-* 
+* 시작적으로 엘리먼트의 일정/전체 부분을 숨기는데 사용된다.  mask-imagemask-modemask-repeat 등 다양한 속성값이 있다. mask는 mask layer를 형성하는데, alpha와 luminance 두 가지 타입이 있다. 
+
+  **Alpha**
+
+  * 알파채널을 가지고 있으며 알파값은 mask 값으로 사용된다. 
+
+  **Luminance**
+
+  * 이미지의 luminance 값을 사용한다는 것을 제외하고 alpha mask와 유사하다. 
