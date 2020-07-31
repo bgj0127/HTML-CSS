@@ -92,7 +92,7 @@ svg filter는 svg graphics에 특별한 효과를 추가하는데 사용된다.
 
 모든 svg filters는 _defs_ 요소 안에 정의된다. _defs_ 요소는 특정 요소의 정의를 담는다.
 
-*filter *요소는 svg filter를 정의할 때 사용된다. *filter *요소는 id 속성이 요구되며 이로써 filter를 식별한다.
+*filter* 요소는 svg filter를 정의할 때 사용된다. *filter *요소는 id 속성이 요구되며 이로써 filter를 식별한다.
 
 #### svg **feGaussianBlur**
 
