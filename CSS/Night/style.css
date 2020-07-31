@@ -44,7 +44,9 @@
   background: rgba(29, 53, 24, 0.2);
   border-radius: 50%;
   transform-origin: bottom center;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 0 50px rgba(29, 165, 255, 0.1),
+    0 0 0 100px rgba(29, 165, 255, 0.1), 0 0 0 150px rgba(29, 165, 255, 0.1),
+    0 0 0 200px rgba(29, 165, 255, 0.1);
 }
 
 .fish {

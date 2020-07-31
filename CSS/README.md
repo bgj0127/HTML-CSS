@@ -74,12 +74,50 @@ _그때그때 배운 CSS를 기록합니다. 따라서 특정 속성에 대한 �
 
 ### mask
 
-* 시작적으로 엘리먼트의 일정/전체 부분을 숨기는데 사용된다.  mask-imagemask-modemask-repeat 등 다양한 속성값이 있다. mask는 mask layer를 형성하는데, alpha와 luminance 두 가지 타입이 있다. 
+- 시작적으로 엘리먼트의 일정/전체 부분을 숨기는데 사용된다. mask-imagemask-modemask-repeat 등 다양한 속성값이 있다. mask는 mask layer를 형성하는데, alpha와 luminance 두 가지 타입이 있다.
 
   **Alpha**
 
-  * 알파채널을 가지고 있으며 알파값은 mask 값으로 사용된다. 
+  - 알파채널을 가지고 있으며 알파값은 mask 값으로 사용된다.
 
   **Luminance**
 
-  * 이미지의 luminance 값을 사용한다는 것을 제외하고 alpha mask와 유사하다. 
+  - 이미지의 luminance 값을 사용한다는 것을 제외하고 alpha mask와 유사하다.
+
+### svg
+
+svg는 백터 이미지를 표현하기 위한 포맷으로 w3c에서 만든 백터 이미지 표준이다.
+
+svg filter는 svg graphics에 특별한 효과를 추가하는데 사용된다.
+
+모든 svg filters는 _defs_ 요소 안에 정의된다. _defs_ 요소는 특정 요소의 정의를 담는다.
+
+*filter *요소는 svg filter를 정의할 때 사용된다. *filter *요소는 id 속성이 요구되며 이로써 filter를 식별한다.
+
+#### svg **feGaussianBlur**
+
+이 요소는 흐림 효과를 만드는 데 사용된다.
+
+```html
+<svg width="100" height="100">
+  <defs>
+    <filter id="foo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="15" />
+    </filter>
+  </defs>
+  <rect
+    width="90"
+    height="90"
+    stroke="green"
+    stroke-width="3"
+    fill="yellow"
+    filter="url(#f1)"
+  />
+</svg>
+```
+
+- _filter_ 의 id는 _filter_ 의 고유한 이름 정의
+- blur 효과는 _feGaussianBlur_ 요소로 정의
+- in="SourceGraphic" 은 효과가 전체 요소에 대해 생성되는 정의
+- stdDeviation 속성은 흐림 효과의 정도를 정의
+- _rect_ 요소의 _filter_ 속성은 필터 특성은 "f1" 필터에 대한 요소를 링크한다.
