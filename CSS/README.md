@@ -2,7 +2,7 @@
 
 [NightBowl](https://bgj0127.github.io/HTML-CSS/CSS/Night/index.html)  
 [LiquidLoader](https://bgj0127.github.io/HTML-CSS/CSS/Liquid/index.html)   
-[Scrollbar](https://bgj0127.github.io/HTML-CSS/CSS/Scroll/index.html)   
+[Scrollbar](https://bgj0127.github.io/HTML-CSS/CSS/Scroll/scroll.html)   
 _그때그때 배운 CSS를 기록합니다. 따라서 특정 속성에 대한 내용이 완전하지 않을 수 있습니다._
 
 ### background-attachment
