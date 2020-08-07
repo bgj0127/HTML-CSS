@@ -40,6 +40,11 @@ _그때그때 배운 CSS를 기록합니다. 따라서 특정 속성에 대한 �
 * **skew()** - 해당 요소를 주어진 각도만큼 x축(skewX), y축(skewY) 방향으로 기울인다.
 * **matrix()** - 모든 2D transform 메소드를 한 줄에 설정할 수 있도록 해준다
   * matrix( **scaleX()**, **skewY()**, **skewX()**, **scaleY()**, **translateX()**, **translateY()** );
+  
+
+### transform-origin
+
+* 회전 중심(원점, 기준점)을 지정한다. 이 속성 값은 백분율과 키워드 중 하나로 지정할 수 있다. 예를 들어 ```transform-origin: 0% 0%``` 의 경우, 박스의 왼쪽 상단 모서리에 위치한다. 
 
 ### animation
 
